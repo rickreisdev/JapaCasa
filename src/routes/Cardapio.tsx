@@ -186,7 +186,7 @@ const Cardapio = () => {
                 <div
                     className="carda_title"
                     style={{
-                        backgroundImage: `url(https://dygt0xe7szzk0.cloudfront.net/StockSnap_BBD3AU9NSR.webp)`,
+                        backgroundImage: `url('/bkg-cardapio.webp')`,
                     }}
                 
                 >

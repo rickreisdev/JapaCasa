@@ -26,7 +26,7 @@ const Sobre = () => {
                     <motion.div
                         className="sobre_titulo"
                         style={{
-                            backgroundImage: `url(https://dygt0xe7szzk0.cloudfront.net/pexels-chudesabyvaut.webp)`,
+                            backgroundImage: `url('/bkg-sobre.webp')`,
                         }}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}

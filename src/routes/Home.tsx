@@ -33,7 +33,7 @@ const Home = () => {
                 <div
                     className="content_home"
                     style={{
-                        backgroundImage: `url(https://dygt0xe7szzk0.cloudfront.net/sushi-home.webp)`,
+                        backgroundImage: `url('/bkg-home.webp')`,
                     }}
                 >
                     <h1>
