@@ -1,4 +1,5 @@
 import "../assets/styles/footer.scss";
+import rickreisLogo from "../assets/svg/logo-rickreis.svg";
 
 const currentYear = new Date().getFullYear();
 
@@ -15,13 +16,16 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <a
-                            target="_blank"
-                            href="https://rickreisme.vercel.app"
-                        >
-                            <span className="rickreisme">
-                                &lt;rickreisme/&gt;
-                            </span>
+                        <a target="_blank" href="https://rickreis.dev.br">
+                            <img
+                                src={rickreisLogo}
+                                alt="Logo rickreis"
+                                className="rickreisme"
+                                style={{
+                                    width: "7rem",
+                                    marginBottom: "0.5rem",
+                                }}
+                            />
                         </a>
                     </div>
 
