@@ -16,6 +16,8 @@ const Footer = () => {
                             </div>
                         </div>
 
+                        <div className="credits">Desenvolvido por</div>
+
                         <a target="_blank" href="https://rickreis.dev.br">
                             <img
                                 src={rickreisLogo}
@@ -28,8 +30,6 @@ const Footer = () => {
                             />
                         </a>
                     </div>
-
-                    <div className="credits">Desenvolvido por Rick Reis</div>
                 </div>
             </footer>
         </>
